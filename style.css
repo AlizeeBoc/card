@@ -1,0 +1,242 @@
+
+body {
+    margin:0;
+    box-sizing: border-box;
+}
+#container {
+    display:flex; 
+    z-index: 1;
+}
+
+#nav {
+    height: 100vh;
+    width: 80px;
+    background-color: #16263F;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#gche {
+    height: 100vh;
+    width: 800px;
+    background-color:white;
+    box-sizing: border-box;
+    padding: 80px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#skills {
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+#centre {
+    height:100vh;
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    }
+
+#dte {
+    height: 100vh;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 112px;
+    padding-right: 66px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.coord .yellow {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.coord .text {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding-top: 41px;
+    padding-bottom: 67px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#pic {
+    height: 70%;
+    z-index: 1;
+}
+
+.blacklign {
+    height:15%;
+    width: 150px;
+    background-color :black;
+    align-items: flex-end;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#ligne1 {
+    height:5px;
+    width :160px;
+    background-color:#DAAE19
+}
+
+#ligne2 {
+    height:5px;
+    width :100px;
+    background-color:#DAAE19
+}
+
+#ligne3 {
+    height:5px;
+    width :120px;
+    background-color:#DAAE19
+}
+
+#ligne4 {
+    height:5px;
+    width :150px;
+    background-color:#DAAE19
+}
+
+#deco {
+    height:10px;
+    width :60px;
+    background-color:#DAAE19
+}
+.yellow {
+    color:#DAAE19
+}
+
+#identity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
+#titre {
+    display: flex;
+    align-items: flex-start;
+}
+
+#titre img {
+    align-self: center;
+}
+
+.hireme {
+    background-color: #DAAE19;
+    color: white;
+    padding: 15px;
+    width: 70px;
+}
+
+
+#hm2 {
+    background-color: #DAAE19;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:30px;
+    position: relative;
+    z-index: 2;
+    top: -210px;
+    left: 65px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    width: 97px;
+}
+
+#hm1 {
+    background-color: #DAAE19;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#identity h1 {
+    font-family: 'Wix Madefor Display', sans-serif;
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-weight: 800;
+    margin:0;
+}
+
+.text {
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #848484;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+#identity h3 {
+    color: #848484;
+    font-size: 20;
+}
+
+.yl {
+        background-color:#DAAE19;
+        height: 525px;
+        width: 10px;
+}
+
+#linedown {
+    background-color: #DAAE19;
+    color: #DAAE19;
+    width: 160px;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    align-items: flex-end;
+}
+
+#lineup {
+    background-color: #DAAE19;
+    color: #DAAE19;
+    width: 160px;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
